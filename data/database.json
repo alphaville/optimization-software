@@ -101,7 +101,7 @@
       "algorithm_type": [
         "Automatic Differentiation"
       ],
-      "description": "CasADi is an open-source tool for nonlinear optimization and algorithmic differentiation.",
+      "description": "An open-source tool for nonlinear optimization and algorithmic differentiation",
       "license": "MIT",
       "year": "2020",
       "institution": "",
@@ -164,7 +164,7 @@
         "OSQP",
         "Branch and Bound"
       ],
-      "description": "The OSQP (Operator Splitting Quadratic Program) solver is a numerical optimization package for solving constrained convex optimization problems",
+      "description": "A numerical optimization package for solving constrained convex optimization problems",
       "license": "Apache v2",
       "year": "2020",
       "institution": "University of Oxford",
@@ -336,6 +336,7 @@
     {
       "uid": "yalmip",
       "title": "YALMIP",
+      "description": "MATLAB toolbox for rapid prototyping of optimization problems",
       "url": "https://yalmip.github.io/",
       "source": "https://github.com/yalmip/YALMIP",
       "docs": "https://yalmip.github.io/",
@@ -455,6 +456,7 @@
     {
       "uid": "qpalm",
       "title": "QPALM",
+      "description": "C implementation of QPALM, a proximal augmented Lagrangian based solver for (possibly nonconvex) quadratic programs",
       "author": [
         {
           "name": "Ben Hermans",
@@ -503,6 +505,7 @@
     {
       "uid": "mpc.pytorch",
       "title": "mpc.pytorch",
+      "description": "A PyTorch library for solving non-convex control problems",
       "source": "https://github.com/locuslab/mpc.pytorch",
       "url": "https://locuslab.github.io/mpc.pytorch/",
       "docs": "https://locuslab.github.io/mpc.pytorch/",
@@ -590,6 +593,7 @@
     {
       "uid": "aladin-alpha",
       "title": "ALADIN-alpha",
+      "description": "Rapid-prototyping toolbox for distributed and decentralized non-convex optimization",
       "url": "https://alexe15.github.io/ALADIN.m/",
       "source": "https://github.com/alexe15/ALADIN.m",
       "docs": "https://alexe15.github.io/ALADIN.m/",
@@ -613,6 +617,22 @@
         "casadi",
         "matlab:symbolic-toolbox"
       ]
+    },
+    {
+      "uid": "do-mpc",
+      "title": "do-mpc",
+      "url": "https://www.do-mpc.com/en/latest/",
+      "source": "https://github.com/do-mpc/do-mpc",
+      "license": "LGPLv3",
+      "author": [
+        {"name": "Sergio Lucia"},
+        {"name": "Alexandru Tatulea"},
+        {"name": "Sebastian Engell"}
+      ],
+      "programming_language": ["Python"],
+      "api": ["python"],
+      "logo": "https://raw.githubusercontent.com/do-mpc/do-mpc/master/documentation/source/static/dompc_var_02_rtd_blue.png",
+      "description": "A comprehensive open-source toolbox for robust model predictive control (MPC) and moving horizon estimation (MHE)"
     }
   ]
 }
