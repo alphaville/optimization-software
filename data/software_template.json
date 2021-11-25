@@ -1,0 +1,88 @@
+{
+  "uid": "mpc-toolbox",
+  "title": "MPC Toolbox",
+  "software_type": [
+    "Optimization",
+    "Solver",
+    "Nonconvex",
+    "MPC",
+    "Embedded",
+    "CodeGeneration"
+  ],
+  "algorithm_type": [
+    "PANOC",
+    "Penalty Method",
+    "Augmented Lagrangian Method"
+  ],
+  "description": "Fast and Accurate Embedded Optimization for next-generation Robotics and Autonomous Systems",
+  "license": [
+    "Apache v2",
+    "MIT"
+  ],
+  "year": 2020,
+  "institution": "Queen's University Belfast",
+  "url": "https://doc.optimization-engine.xyz",
+  "source": "https://alphaville.github.com/optimization-engine",
+  "docs": [
+    "https://alphaville.github.io/optimization-engine/",
+    "https://docs.rs/optimization_engine/*/optimization_engine/"
+  ],
+  "author": [
+    {
+      "name": "Pantelis Sopasakis",
+      "email": "p.sopasakis@qub.ac.uk",
+      "affiliation": "Queen's University Belfast"
+    },
+    {
+      "name": "Emil Fresk",
+      "email": "emil@widefind.se",
+      "affiliation": "WideFind"
+    }
+  ],
+  "programming_language": [
+    "Rust",
+    "Python",
+    "C"
+  ],
+  "api": [
+    "Python",
+    "Rust",
+    "MATLAB",
+    "ROS",
+    "C",
+    "C++"
+  ],
+  "logo": "https://alphaville.github.io/optimization-engine/img/box.png",
+  "bib": [
+    {
+      "type": "inproceedings",
+      "author": [
+        "P. Sopasakis",
+        "E. Fresk",
+        "P. Patrinos"
+      ],
+      "title": "{OpEn}: Code Generation for Embedded Nonconvex Optimization",
+      "booktitle": "IFAC World Congress",
+      "year": 2020,
+      "address": "Berlin, Germany"
+    },
+    {
+      "author": [
+        "Stella, L.",
+        "Themelis, A.",
+        "Sopasakis, P.",
+        "Patrinos, P."
+      ],
+      "title": "A simple and efficient algorithm for nonlinear model predictive control",
+      "booktitle": "IEEE Conference on Decision and Control (CDC)",
+      "year": 2017,
+      "month": "Dec",
+      "pages": "1939-1944"
+    }
+  ],
+  "version": "0.7",
+  "dev_status": "beta",
+  "dependencies": [
+    "casadi"
+  ]
+}

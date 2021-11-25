@@ -1,0 +1,618 @@
+{
+  "last_updated": "Tue Nov 23 20:31:48 UTC 2021",
+  "entries": [
+    {
+      "uid": "open",
+      "title": "Optimization Engine (OpEn)",
+      "software_type": [
+        "Optimization",
+        "Solver",
+        "Nonconvex",
+        "MPC",
+        "Embedded",
+        "CodeGeneration"
+      ],
+      "algorithm_type": [
+        "PANOC",
+        "Penalty Method",
+        "Augmented Lagrangian Method"
+      ],
+      "description": "Fast and Accurate Embedded Optimization for next-generation Robotics and Autonomous Systems",
+      "license": [
+        "Apache v2",
+        "MIT"
+      ],
+      "year": 2020,
+      "institution": "Queen's University Belfast",
+      "url": "http://doc.optimization-engine.xyz",
+      "source": "https://github.com/alphaville/optimization-engine",
+      "docs": [
+        "https://alphaville.github.io/optimization-engine/",
+        "https://docs.rs/optimization_engine/"
+      ],
+      "author": [
+        {
+          "name": "Pantelis Sopasakis",
+          "email": "p.sopasakis@qub.ac.uk",
+          "affiliation": "Queen's University Belfast"
+        },
+        {
+          "name": "Emil Fresk",
+          "email": "emil@widefind.se",
+          "affiliation": "WideFind"
+        }
+      ],
+      "programming_language": [
+        "Rust",
+        "Python",
+        "C"
+      ],
+      "api": [
+        "Python",
+        "Rust",
+        "MATLAB",
+        "ROS",
+        "C",
+        "C++"
+      ],
+      "logo": "https://alphaville.github.io/optimization-engine/img/box.png",
+      "bib": [
+        {
+          "type": "inproceedings",
+          "author": [
+            "P. Sopasakis",
+            "E. Fresk",
+            "P. Patrinos"
+          ],
+          "title": "{OpEn}: Code Generation for Embedded Nonconvex Optimization",
+          "booktitle": "IFAC World Congress",
+          "year": "2020",
+          "address": "Berlin, Germany"
+        },
+        {
+          "type": "inproceedings",
+          "author": [
+            "Stella, L.",
+            "Themelis, A.",
+            "Sopasakis, P.",
+            "Patrinos, P."
+          ],
+          "title": "A simple and efficient algorithm for nonlinear model predictive control",
+          "booktitle": "IEEE Conference on Decision and Control (CDC)",
+          "year": 2017,
+          "month": "Dec",
+          "pages": "1939-1944"
+        }
+      ],
+      "version": "0.7",
+      "dev_status": "beta",
+      "dependencies": [
+        "casadi"
+      ]
+    },
+    {
+      "uid": "casadi",
+      "title": "CasADi",
+      "software_type": [
+        "Automatic Differentiation",
+        "Nonlinear Optimization",
+        "Nonlinear Model Predictive Control"
+      ],
+      "algorithm_type": [
+        "Automatic Differentiation"
+      ],
+      "description": "CasADi is an open-source tool for nonlinear optimization and algorithmic differentiation.",
+      "license": "MIT",
+      "year": "2020",
+      "institution": "",
+      "url": "https://web.casadi.org/",
+      "source": "https://github.com/casadi/casadi",
+      "docs": [
+        "https://web.casadi.org/"
+      ],
+      "author": [
+        {
+          "name": "Joel A E Andersson",
+          "affiliation": "University of Wisconsin - Madison"
+        },
+        {
+          "name": "Joris Gillis",
+          "affiliation": "KU Leuven"
+        }
+      ],
+      "programming_language": [
+        "C",
+        "Python"
+      ],
+      "api": [
+        "MATLAB",
+        "Python",
+        "Octave",
+        "C++"
+      ],
+      "logo": "https://web.casadi.org/_img/logo_2017_horizontal.png",
+      "bib": {
+        "type": "article",
+        "author": [
+          "Joel A E Andersson",
+          "Joris Gillis",
+          "Greg Horn",
+          "James B Rawlings",
+          "Moritz Diehl"
+        ],
+        "title": "{CasADi} -- {A} software framework for nonlinear optimization and optimal control",
+        "journal": "Mathematical Programming Computation",
+        "volume": "11",
+        "number": "1",
+        "pages": "1--36",
+        "year": "2019",
+        "publisher": "Springer",
+        "doi": "10.1007/s12532-018-0139-4"
+      },
+      "version": "3.5",
+      "dev_status": "beta",
+      "dependencies": [
+      ]
+    },
+    {
+      "uid": "osqp",
+      "title": "OSQP",
+      "software_type": [
+        "Convex Optimization"
+      ],
+      "algorithm_type": [
+        "OSQP",
+        "Branch and Bound"
+      ],
+      "description": "The OSQP (Operator Splitting Quadratic Program) solver is a numerical optimization package for solving constrained convex optimization problems",
+      "license": "Apache v2",
+      "year": "2020",
+      "institution": "University of Oxford",
+      "url": "https://osqp.org/",
+      "source": "https://github.com/osqp/osqp",
+      "docs": [
+        "https://osqp.org/"
+      ],
+      "author": [
+        {
+          "name": "Bartolomeo Stellato",
+          "affiliation": "Princeton University"
+        },
+        {
+          "name": "Goran Banjac",
+          "affiliation": "ETH Zurich"
+        },
+        {
+          "name": "Paul Goulart",
+          "affiliation": "University of Oxford"
+        },
+        {
+          "name": "Stephen Boyd",
+          "affiliation": "Stanford University"
+        },
+        {
+          "name": "Alberto Bemporad",
+          "affiliation": "IMT Lucca"
+        },
+        {
+          "name": "Nicholas Moehle",
+          "affiliation": "Stanford University"
+        },
+        {
+          "name": "Michel Schubiger",
+          "affiliation": "Schindler R&D"
+        },
+        {
+          "name": "John Lygeros",
+          "affiliation": "ETH Zurich"
+        }
+      ],
+      "programming_language": [
+        "C",
+        "C++"
+      ],
+      "api": [
+        "MATLAB",
+        "Python",
+        "Julia",
+        "R"
+      ],
+      "bib": {
+        "author": [
+          "Stellato, B.",
+          "Banjac, G.",
+          "Goulart, P.",
+          "Bemporad, A.",
+          "Boyd, S."
+        ],
+        "title": "{OSQP}: an operator splitting solver for quadratic programs",
+        "journal": "Mathematical Programming Computation",
+        "year": "2020",
+        "volume": "12",
+        "number": "4",
+        "pages": "637--672",
+        "doi": "10.1007/s12532-020-00179-2",
+        "url": "https://doi.org/10.1007/s12532-020-00179-2"
+      },
+      "version": "0.6.2",
+      "dependencies": [
+      ]
+    },
+    {
+      "id": "muscod-ii",
+      "title": "MUSCOD-II"
+    },
+    {
+      "id": "hqp",
+      "title": "HQP"
+    },
+    {
+      "title": "MPC Toolbox"
+    },
+    {
+      "title": "AutoGenU"
+    },
+    {
+      "title": "OOQP"
+    },
+    {
+      "title": "MPT3"
+    },
+    {
+      "title": "Hybrid toolbox"
+    },
+    {
+      "title": "qpOASES"
+    },
+    {
+      "title": "PQP"
+    },
+    {
+      "title": "CVXPy"
+    },
+    {
+      "title": "CVXGEN"
+    },
+    {
+      "title": "ACADO Codegen"
+    },
+    {
+      "title": "FiOrdOs"
+    },
+    {
+      "title": "PyOMO"
+    },
+    {
+      "title": "muAO-MPC"
+    },
+    {
+      "title": "FORCES"
+    },
+    {
+      "title": "ECOS"
+    },
+    {
+      "title": "GRAMPC"
+    },
+    {
+      "title": "qpDUNES"
+    },
+    {
+      "title": "DuQuad"
+    },
+    {
+      "title": "HPMPC"
+    },
+    {
+      "title": "VIATOC"
+    },
+    {
+      "title": "PIPS-NLP"
+    },
+    {
+      "title": "GPAD"
+    },
+    {
+      "title": "Forces NLP"
+    },
+    {
+      "title": "FalcOpt"
+    },
+    {
+      "title": "HPIPM"
+    },
+    {
+      "title": "ODYS"
+    },
+    {
+      "title": "protoip"
+    },
+    {
+      "title": "SPLIT toolbox"
+    },
+    {
+      "title": "Control Toolbox"
+    },
+    {
+      "uid": "yalmip",
+      "title": "YALMIP",
+      "url": "https://yalmip.github.io/",
+      "source": "https://github.com/yalmip/YALMIP",
+      "docs": "https://yalmip.github.io/",
+      "year": 2004,
+      "author": [
+        {
+          "name": "Johan Löfberg",
+          "affiliation": "Linköping University"
+        }
+      ],
+      "programming_language": [
+        "MATLAB"
+      ],
+      "api": [
+        "MATLAB"
+      ],
+      "bib": {
+        "type": "inproceedings",
+        "pages": "284-289",
+        "year": "2004",
+        "title": "{YALMIP}: a toolbox for modeling and optimization in MATLAB",
+        "booktitle": "2004 IEEE International Conference on Robotics and Automation (IEEE Cat. No.04CH37508)",
+        "author": [
+          "Lofberg, J."
+        ],
+        "doi": "10.1109/CACSD.2004.1393890"
+      },
+      "version": "R20210331"
+    },
+    {
+      "title": "PANOC.jl"
+    },
+    {
+      "title": "PRESAS"
+    },
+    {
+      "title": "ParNMPC"
+    },
+    {
+      "title": "qrqp"
+    },
+    {
+      "uid": "acados",
+      "title": "acados",
+      "description": "Fast and embedded solvers for nonlinear optimal control",
+      "license": [
+        "2-Clause BSD License"
+      ],
+      "url": "https://docs.acados.org/",
+      "source": "https://github.com/acados/acados",
+      "docs": "https://docs.acados.org/",
+      "year": 2018,
+      "author": [
+        "Robin Verschueren",
+        "Gianluca Frison",
+        "Dimitris Kouzoupis",
+        "Jonathan Frey",
+        "Niels van Duijkeren",
+        "Andrea Zanelli",
+        "Branimir Novoselnik",
+        "Thivaharan Albin",
+        "Rien Quirynen",
+        "Moritz Diehl"
+      ],
+      "bib": [
+        {
+          "type": "inproceedings",
+          "booktitle": "Proceedings of the IFAC Conference on Nonlinear Model Predictive Control (NMPC)",
+          "title": "Towards a modular software package for embedded optimization",
+          "year": 2018,
+          "author": [
+            "Robin Verschueren",
+            "Gianluca Frison",
+            "Dimitris Kouzoupis",
+            "Niels van Duijkeren",
+            "Andrea Zanelli",
+            "Rien Quirynen",
+            "Moritz Diehl"
+          ]
+        },
+        {
+          "type": "article",
+          "title": "acados -- a modular open-source framework for fast embedded optimal control",
+          "author": [
+            "Robin Verschueren",
+            "Gianluca Frison",
+            "Dimitris Kouzoupis",
+            "Jonathan Frey",
+            "Niels van Duijkeren",
+            "Andrea Zanelli",
+            "Branimir Novoselnik",
+            "Thivaharan Albin",
+            "Rien Quirynen",
+            "Moritz Diehl"
+          ],
+          "journal": "Mathematical Programming Computation",
+          "year": "2021",
+          "month": "Oct",
+          "day": "09",
+          "doi": "10.1007/s12532-021-00208-8",
+          "url": "https://doi.org/10.1007/s12532-021-00208-8"
+        }
+      ]
+    },
+    {
+      "title": "TMPC"
+    },
+    {
+      "title": "qpSWIFT"
+    },
+    {
+      "title": "MATMPC"
+    },
+    {
+      "title": "PolyMPC"
+    },
+    {
+      "uid": "qpalm",
+      "title": "QPALM",
+      "author": [
+        {
+          "name": "Ben Hermans",
+          "affiliation": "KU Leuven"
+        },
+        {
+          "name": "Panagiotis (Panos) Patrinos",
+          "affiliation": "KU Leuven"
+        }
+      ],
+      "description": "QPALM is a numerical optimization package that finds stationary points of (possibly nonconvex) quadratic programs",
+      "url": "https://benny44.github.io/QPALM_vLADEL/",
+      "docs": "https://benny44.github.io/QPALM_vLADEL/",
+      "source": "https://github.com/Benny44/QPALM_vLADEL",
+      "license": "LGPLv3",
+      "programming_language": [
+        "C"
+      ],
+      "api": [
+        "C",
+        "MATLAB",
+        "Python",
+        "Julia"
+      ],
+      "bib": [
+        {
+          "type": "inproceedings",
+          "month": "Dec",
+          "year": "2019",
+          "title": "{QPALM}: {A} {N}ewton-type {P}roximal {A}ugmented {L}agrangian {M}ethod for {Q}uadratic {P}rograms",
+          "booktitle": "58th IEEE Conference on Decision and Control",
+          "author": [
+            "Hermans, B.",
+            "Themelis, A.",
+            "Patrinos, P."
+          ]
+        }
+      ]
+    },
+    {
+      "title": "NASOQ"
+    },
+    {
+      "title": "ASIPM"
+    },
+    {
+      "uid": "mpc.pytorch",
+      "title": "mpc.pytorch",
+      "source": "https://github.com/locuslab/mpc.pytorch",
+      "url": "https://locuslab.github.io/mpc.pytorch/",
+      "docs": "https://locuslab.github.io/mpc.pytorch/",
+      "license": "MIT",
+      "programming_language": [
+        "python"
+      ],
+      "api": [
+        "python"
+      ],
+      "version": "0.7",
+      "dependencies": [
+        "numpy",
+        "pytorch"
+      ],
+      "author": [
+        {
+          "name": "Brandon Amos",
+          "affiliation": "Facebook AI (FAIR)",
+          "email": "bda@fb.com"
+        },
+        {
+          "name": "Ivan Jimenez",
+          "affiliation": "Georgia Tech"
+        },
+        {
+          "name": "Jacob Sacks",
+          "affiliation": "Georgia Tech"
+        },
+        {
+          "name": "Byron Boots",
+          "affiliation": "University of Washington",
+          "email": "bbootscs.washington.edu"
+        },
+        {
+          "name": "J. Zico Kolter",
+          "affiliation": [
+            "Carnegie Mellon University",
+            "Bosch Center for AI"
+          ],
+          "email": "zkolter@cs.cmu.edu"
+        }
+      ],
+      "bib": [
+        {
+          "organization": "IEEE",
+          "year": "2014",
+          "pages": "1168--1175",
+          "booktitle": "Robotics and Automation (ICRA), 2014 IEEE International Conference on",
+          "author": [
+            "Tassa, Yuval",
+            "Mansard, Nicolas",
+            "Todorov, Emo"
+          ],
+          "title": "Control-limited differential dynamic programming",
+          "type": "inproceedings"
+        },
+        {
+          "year": "2018",
+          "booktitle": "Advances in Neural Information Processing Systems",
+          "author": [
+            "Brandon Amos",
+            "Ivan Jimenez",
+            "Jacob Sacks",
+            "Byron Boots",
+            "J. Zico Kolter"
+          ],
+          "title": "Differentiable MPC for End-to-end Planning and Control",
+          "type": "article"
+        }
+      ]
+    },
+    {
+      "title": "Fast MPC",
+      "url": "https://github.com/sandeepbanik/Fast-MPC"
+    },
+    {
+      "title": "ForBES",
+      "url": "https://github.com/kul-optec/ForBES"
+    },
+    {
+      "title": "ProximalAlgorithms.jl",
+      "source": "https://github.com/JuliaFirstOrder/ProximalAlgorithms.jl"
+    },
+    {
+      "uid": "aladin-alpha",
+      "title": "ALADIN-alpha",
+      "url": "https://alexe15.github.io/ALADIN.m/",
+      "source": "https://github.com/alexe15/ALADIN.m",
+      "docs": "https://alexe15.github.io/ALADIN.m/",
+      "bib": {
+        "type": "article",
+        "title": "ALADIN-alpha -- An open-source MATLAB toolbox for distributed non-convex optimization",
+        "author": [
+          "Alexander Engelmann",
+          "Yuning Jiang",
+          "Henrieke Benner",
+          "Ruchuan Ou",
+          "Boris Houska",
+          "Timm Faulwasser"
+        ],
+        "journal": "Optim Control Appl Meth.",
+        "year": 2021,
+        "pages": "1-19",
+        "url": "https://onlinelibrary.wiley.com/doi/full/10.1002/oca.2811"
+      },
+      "dependencies": [
+        "casadi",
+        "matlab:symbolic-toolbox"
+      ]
+    }
+  ]
+}
